@@ -266,44 +266,105 @@ nav a:hover {
   display: block;
 }
 
-/* About Section */
-.about {
-  padding: 6rem 0;
+.price-note {
+  font-size: 0.8rem;
+  color: #778;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
 }
 
-.about-content {
-  max-width: 800px;
-  margin: 0 auto;
+/* How It Works Section */
+.how-it-works {
+  padding: 6rem 0;
+  background-color: var(--white);
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.step {
   text-align: center;
 }
 
-.about h2 {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-}
-
-.stats {
+.step-number {
+  background-color: var(--accent-color);
+  color: var(--white);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 4rem;
-  margin-top: 3rem;
-}
-
-.stat-item {
-  display: flex;
-  flex-direction: column;
-}
-
-.stat-value {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 800;
-  color: var(--accent-color);
+  margin: 0 auto 1.5rem;
 }
 
-.stat-label {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #666;
+.step h4 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+/* Why Us Section */
+.why-us {
+  padding: 6rem 0;
+  background-color: var(--bg-light);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.feature {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.feature h4 {
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 6rem 0;
+  background-color: var(--white);
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+blockquote {
+  background: var(--bg-light);
+  padding: 2rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--accent-color);
+  margin: 0;
+}
+
+blockquote p {
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #445;
+}
+
+cite {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-style: normal;
 }
 
 /* CTA Section */

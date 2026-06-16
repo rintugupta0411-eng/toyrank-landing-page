@@ -6,7 +6,8 @@ document.querySelector('#app').innerHTML = `
       <div class="logo">ToyRank <span>PPC</span></div>
       <ul>
         <li><a href="#services">Services</a></li>
-        <li><a href="#about">Why Us</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#why-us">Why Us</a></li>
         <li><a href="#contact" class="btn btn-outline">Contact</a></li>
       </ul>
     </nav>
@@ -15,10 +16,10 @@ document.querySelector('#app').innerHTML = `
   <main>
     <section id="hero" class="hero">
       <div class="container">
-        <h1>Data-Driven Amazon PPC <br>for <span>Toy Brands</span></h1>
-        <p>Scale your toy brand with category-specific expertise and order-driven optimization. We don't just manage ads; we build market leaders.</p>
+        <h1>Amazon PPC Built for <span>Toy Brands</span></h1>
+        <p>Stop guessing. Start scaling. We use category-specific data and order-driven bidding to turn your ad spend into profitable growth.</p>
         <div class="cta-group">
-          <a href="#contact" class="btn btn-primary">Get a Category Audit</a>
+          <a href="#contact" class="btn btn-primary">Get Your Free Mini-Audit</a>
           <a href="#services" class="btn btn-secondary">View Services</a>
         </div>
       </div>
@@ -31,83 +32,114 @@ document.querySelector('#app').innerHTML = `
           <div class="service-card">
             <h3>The Category Audit</h3>
             <p class="tagline">The Strategic Diagnostic</p>
-            <p>Identify hidden waste and immediate growth opportunities in your existing campaigns.</p>
-            <ul>
-              <li>Wasted Spend Audit</li>
-              <li>Placement Efficiency Report</li>
-              <li>Target ACOS Gap Analysis</li>
-            </ul>
-            <span class="price">$499 (One-time)</span>
+            <p>Identify hidden waste and immediate growth opportunities in your existing campaigns. Includes a Wasted Spend Audit and Placement Efficiency Report.</p>
+            <span class="price">$499</span>
+            <p class="price-note">(100% credited back toward your first month of management)</p>
             <a href="#contact" class="btn btn-small">Book Audit</a>
           </div>
           <div class="service-card highlighted">
             <h3>The Launch Rocket</h3>
             <p class="tagline">The ASIN Accelerator</p>
-            <p>Secure high-intent placements and build rapid sales velocity for new launches or seasonal peaks.</p>
-            <ul>
-              <li>Full Campaign Architecture</li>
-              <li>Daily Bid Management</li>
-              <li>Keyword & Competitor Harvesting</li>
-            </ul>
+            <p>Secure high-intent placements and build rapid sales velocity for new launches or seasonal peaks. Includes full campaign architecture and high-frequency daily bid management.</p>
             <span class="price">$1,250 per ASIN</span>
             <a href="#contact" class="btn btn-primary btn-small">Start Launch</a>
           </div>
           <div class="service-card">
             <h3>Managed Growth</h3>
             <p class="tagline">Scalable ROI Management</p>
-            <p>Hands-on optimization to scale profitable ad spend and maintain healthy ACOS.</p>
-            <ul>
-              <li>3x Weekly manual adjustments</li>
-              <li>Placement Optimization</li>
-              <li>Negative Keyword Management</li>
-            </ul>
+            <p>Hands-on optimization to scale profitable ad spend. Includes 3x weekly manual adjustments, placement re-balancing, and automated performance dashboards.</p>
             <span class="price">Starting at $1,500/mo</span>
             <a href="#contact" class="btn btn-small">Inquire Now</a>
           </div>
           <div class="service-card">
             <h3>Category Dominance</h3>
             <p class="tagline">The Market Leader Program</p>
-            <p>Aggressive market share acquisition and category leadership for high-volume sellers.</p>
-            <ul>
-              <li>Daily oversight & adjustments</li>
-              <li>Advanced Conquesting</li>
-              <li>Organic Rank Integration</li>
-            </ul>
-            <span class="price">Custom Retainer</span>
+            <p>Aggressive market share acquisition for high-volume sellers. Advanced competitor conquesting, daily oversight, and organic rank integration.</p>
+            <span class="price">$3,500/mo + 2%</span>
+            <p class="price-note">(of total PPC-attributed sales)</p>
             <a href="#contact" class="btn btn-small">Learn More</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="about">
+    <section id="how-it-works" class="how-it-works">
       <div class="container">
-        <div class="about-content">
-          <h2>Why ToyRank PPC?</h2>
-          <p>The Toys category is unique. Seasonality is extreme, and search behavior is distinct. We don't use "set and forget" software. We use a human-led, data-backed methodology that prioritizes <strong>orders</strong> and <strong>rank</strong> over vanity metrics like CTR.</p>
-          <div class="stats">
-            <div class="stat-item">
-              <span class="stat-value">Toys</span>
-              <span class="stat-label">Category Focus</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-value">Data</span>
-              <span class="stat-label">Driven Optimization</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-value">ROI</span>
-              <span class="stat-label">Obsessed</span>
-            </div>
+        <h2 class="section-title">How It Works</h2>
+        <div class="steps-grid">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h4>Audit</h4>
+            <p>We tear down your existing campaigns to find "leakage" (like high-spend, zero-conversion keywords) and placement inefficiencies.</p>
           </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h4>Optimize</h4>
+            <p>We apply our proprietary bid framework to align spend with your profitability goals based on price and conversion rate.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h4>Scale</h4>
+            <p>We aggressively win "Top of Search" placements where toy buyers convert best, driving both ad sales and organic rank.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">4</div>
+            <h4>Report</h4>
+            <p>You get a clear, data-backed dashboard showing exactly how your spend is moving the needle on orders and rank.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="why-us">
+      <div class="container">
+        <h2 class="section-title">Why ToyRank?</h2>
+        <div class="features-grid">
+          <div class="feature">
+            <h4>Toy Category Expertise</h4>
+            <p>We understand the extreme seasonality and distinct search behavior of the toy market. We don't do "set and forget."</p>
+          </div>
+          <div class="feature">
+            <h4>Order-Driven Methodology</h4>
+            <p>We prioritize sales velocity and rank movement over vanity metrics like impressions or CTR.</p>
+          </div>
+          <div class="feature">
+            <h4>Placement-First Strategy</h4>
+            <p>We know "Top of Search" often converts up to 10x better than "Product Pages" for toys. We optimize your bids accordingly.</p>
+          </div>
+          <div class="feature">
+            <h4>Human-Led, Data-Backed</h4>
+            <p>No black-box software. Real specialists using a proven mathematical framework to manage your account.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="testimonial-grid">
+          <blockquote>
+            <p>"ToyRank helped us cut our ACOS by 30% in just two months. Their focus on the 'Top of Search' placement was the game-changer for our STEM toy line."</p>
+            <cite>— Building Blocks Co.</cite>
+          </blockquote>
+          <blockquote>
+            <p>"Finally, an agency that understands Q4 seasonality. The Launch Rocket package gave our new building blocks set the velocity it needed to hit #1 New Release."</p>
+            <cite>— Creative Toys Ltd.</cite>
+          </blockquote>
+          <blockquote>
+            <p>"The Category Audit paid for itself in the first week. They found keywords we'd been spending thousands on for months with zero sales."</p>
+            <cite>— Happy Kids Gear</cite>
+          </blockquote>
         </div>
       </div>
     </section>
 
     <section id="cta" class="cta">
       <div class="container text-center">
-        <h2>Ready to scale your toy brand?</h2>
-        <p>Let’s talk about your ASINs and build a roadmap for growth.</p>
-        <a href="#contact" class="btn btn-primary btn-large">Book Your Free Consultation</a>
+        <h2>Ready to Scale Your Toy Brand?</h2>
+        <p>Don't let another holiday season pass with sub-optimal ad spend. Get a clear look at your growth opportunities with a free mini-audit of one ASIN.</p>
+        <a href="#contact" class="btn btn-primary btn-large">Get My Free Mini-Audit</a>
       </div>
     </section>
   </main>
@@ -123,8 +155,8 @@ document.querySelector('#app').innerHTML = `
           <h4>Links</h4>
           <ul>
             <li><a href="#services">Services</a></li>
-            <li><a href="#about">Why Us</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#why-us">Why Us</a></li>
           </ul>
         </div>
         <div class="footer-contact">
